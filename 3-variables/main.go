@@ -26,6 +26,7 @@ func main() {
 
 	var age2 = 42
 
+	// shorthand declaration
 	pi := 3.14
 
 	fmt.Println(num1, num2, num3, float1, char1, str1, str2, ok1, ok2, age1, age2, pi)
