@@ -1,13 +1,16 @@
 package main
 
-// const PI = 3.14 // are stored in text/code segment
+const PI = 3.14 // are stored in text/code segment
 
-// var Global int = 100
+var Global int = 100
 
-// var UGlobal int
+var UGlobal int
 
 func main() {
 	var any1 any = uint8(12)
+	println(Global)
+	println(UGlobal)
+	println(PI)
 	//num := any1.(uint) // assert it to int
 	//println(num)
 
