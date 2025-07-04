@@ -7,14 +7,6 @@ import (
 	"unsafe"
 )
 
-type Employee struct {
-	Name     string    // 16
-	Salaries []float32 // 24
-	Address  string    // 16
-	Gender   bool      // 1
-	Married  bool
-}
-
 // GOEXPERIMENT=arenas go build
 
 func main() {
